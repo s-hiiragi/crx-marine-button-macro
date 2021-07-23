@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Marine button macro",
+    "version": "1.0",
+
+    "permissions": [
+        "https://hapo31.github.io/*"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["https://hapo31.github.io/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
